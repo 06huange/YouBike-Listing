@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/YouBike-Listing/static/css/main.cb8cf549.chunk.css",
+    "main.js": "/YouBike-Listing/static/js/main.49e73fbb.chunk.js",
+    "main.js.map": "/YouBike-Listing/static/js/main.49e73fbb.chunk.js.map",
+    "runtime-main.js": "/YouBike-Listing/static/js/runtime-main.4c95a0a2.js",
+    "runtime-main.js.map": "/YouBike-Listing/static/js/runtime-main.4c95a0a2.js.map",
+    "static/js/2.ab32209b.chunk.js": "/YouBike-Listing/static/js/2.ab32209b.chunk.js",
+    "static/js/2.ab32209b.chunk.js.map": "/YouBike-Listing/static/js/2.ab32209b.chunk.js.map",
+    "index.html": "/YouBike-Listing/index.html",
+    "static/css/main.cb8cf549.chunk.css.map": "/YouBike-Listing/static/css/main.cb8cf549.chunk.css.map",
+    "static/js/2.ab32209b.chunk.js.LICENSE.txt": "/YouBike-Listing/static/js/2.ab32209b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c95a0a2.js",
+    "static/js/2.ab32209b.chunk.js",
+    "static/css/main.cb8cf549.chunk.css",
+    "static/js/main.49e73fbb.chunk.js"
+  ]
+}
