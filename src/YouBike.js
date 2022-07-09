@@ -11,7 +11,7 @@ export default function YouBike() {
   const ref = useRef(null);
 
   const [isOpen, setIsOpen] = useState(false);
-  const mapSource = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyDId7Y0YTgaQiAMczyNPA8OjJevW92Uh8s&q=' + query + ',Taipei';
+  const mapSource = 'https://www.google.com/maps/embed/v1/place?key=APIKEY&q=' + query + ',Taipei';
   const togglePopup = (event, location, stat) => {
     setMapLocation(location);
     setMapStat(stat);
