@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/YouBike-Listing/static/css/main.cb8cf549.chunk.css",
-    "main.js": "/YouBike-Listing/static/js/main.49e73fbb.chunk.js",
-    "main.js.map": "/YouBike-Listing/static/js/main.49e73fbb.chunk.js.map",
+    "main.js": "/YouBike-Listing/static/js/main.8420d584.chunk.js",
+    "main.js.map": "/YouBike-Listing/static/js/main.8420d584.chunk.js.map",
     "runtime-main.js": "/YouBike-Listing/static/js/runtime-main.4c95a0a2.js",
     "runtime-main.js.map": "/YouBike-Listing/static/js/runtime-main.4c95a0a2.js.map",
     "static/js/2.ab32209b.chunk.js": "/YouBike-Listing/static/js/2.ab32209b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4c95a0a2.js",
     "static/js/2.ab32209b.chunk.js",
     "static/css/main.cb8cf549.chunk.css",
-    "static/js/main.49e73fbb.chunk.js"
+    "static/js/main.8420d584.chunk.js"
   ]
 }
