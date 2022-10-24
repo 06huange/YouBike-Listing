@@ -10,4 +10,4 @@ Instructions:
 2. ```npm run proxy``` to start local proxy server (for local development)
 3. ```npm start``` to run react app locally
 
-<img src="demo.png" alt="Demo Image" title="Demo">
+<img src="src/demo.png" alt="Demo Image" title="Demo">
