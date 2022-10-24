@@ -11,7 +11,7 @@ export default function YouBike() {
   const ref = useRef(null);
 
   const [isOpen, setIsOpen] = useState(false);
-  const mapSource = 'https://www.google.com/maps/embed/v1/place?key=APIKEY&q=' + query + ',Taipei';
+  const mapSource = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyDId7Y0YTgaQiAMczyNPA8OjJevW92Uh8s&q=' + query + ',Taipei';
   const togglePopup = (event, location, stat) => {
     setMapLocation(location);
     setMapStat(stat);
@@ -34,8 +34,10 @@ export default function YouBike() {
   // similar to componentDidMount()
 
   useEffect(() => {
-
-    fetch("http://localhost:8010/proxy/api/datasets/71CD1490-A2DF-4198-BEF1-318479775E8A/json/preview")
+    //https://data.ntpc.gov.tw
+    //* use below proxy server address for local development
+    //http://localhost:8010/proxy/
+    fetch("https://data.ntpc.gov.tw/api/datasets/71CD1490-A2DF-4198-BEF1-318479775E8A/json/preview")
       .then(res => res.json())
       .then(
         (result) => {
@@ -51,6 +53,7 @@ export default function YouBike() {
         (error) => {
           setIsLoaded(true);
           setError(error);
+          window.alert("Error: " + error.message + "\nTry using CORS Chrome extension")
         }
         )
   }, [])
