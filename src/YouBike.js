@@ -117,7 +117,3 @@ function addLeadingZero(input){
         return input;
     }
 }
-
-function testing(){
-  return 'MRT SanChong St.'
-}
